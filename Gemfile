@@ -70,3 +70,12 @@ gem 'popper_js', '~> 1.14.5'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
+
+# Pagination
+gem 'will_paginate', '~> 3.1.0'
+
+# Forms
+gem 'simple_form'
+
+# Plus Icons
+gem "font-awesome-rails"
