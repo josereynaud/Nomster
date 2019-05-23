@@ -86,3 +86,6 @@ gem 'devise'
 # Mapping
 gem "geocoder"
 gem "figaro"
+
+# Photos
+gem 'carrierwave', '~> 1.0'
