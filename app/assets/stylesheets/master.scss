@@ -36,6 +36,9 @@ body {
   font-size:26px;
 }
 
+.navbar-toggler-icon {
+  background: image_url('menu.png');  
+}
 .invalid-feedback {
   color: #ff3333;
   background-color: #FFEEEE;
