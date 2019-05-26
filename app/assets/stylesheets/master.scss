@@ -148,5 +148,7 @@ blockquote p {
 }
 
 .image_thumbnail img {
+  height: 150px;
   width: 100%;
+  object-fit: cover;
 }
