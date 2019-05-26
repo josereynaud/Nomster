@@ -136,7 +136,7 @@
         <% @place.photos.each do |photo| %>
           <div class="col-3 col-sm-3">
             <div class="image_thumbnail">
-                <a href="<%= photo.picture %> target='_blank'">
+                <a href="<%= photo.picture %>" target="_blank">
                     <%= image_tag photo.picture %>
                 </a>
             <br>
@@ -146,4 +146,6 @@
         <% end %>
     </div>
     <p><b> Click on the image to enlarge it. </b></p>
+    <div class="clear"></div>
+    <br /><br />
 </div>
